@@ -6,7 +6,7 @@
     <br>
 </p>
 
-An quick start pacakge with all the pretty SEO-friendly URL enabled for both the frontend and backend. The application is built using advanced pattern and has a modular structure.
+An quick start package with all the pretty SEO-friendly URL enabled for both frontend and backend. The application is built using advanced pattern and has a modular structure.
 
 REQUIREMENTS
 -------------------
@@ -16,8 +16,46 @@ The minimum requirement by this project template that your Web server supports P
 INSTALLTAION
 -------------------
 
+Clone the repository
+
 ```
-adfadf
+git clone https://github.com/depakmurthy/yii2-advanced-quickstart.git
+cd yii2-advanced-quickstart
+composer install
+```
+DATABASE
+-------------------
+
+```
+import the yii2_advanced_quick_start.sql file from this repository to your mysql.
+Database with name yii2_advanced_quick_start is created.
+```
+
+SEO-FRIENDLY URL
+-------------------
+
+Frontend
+```
+Update rules, if any new URLs `frontend\config\main.php`
+
+'rules' => [
+    "" => "site/index",
+    "about" => "site/about",
+    "contact" => "site/contact",
+    "signup" => "site/signup",
+    "login" => "site/login",
+    "request-password-reset" => "site/request-password-reset",
+    "resend-verification-email" => "site/resend-verification-email"
+],
+```
+Backend
+
+```
+Update rules, if any new URLs `backend\config\main.php`
+
+'rules' => [
+    "" => "site/login"
+],
 ```
 
 DIRECTORY STRUCTURE
