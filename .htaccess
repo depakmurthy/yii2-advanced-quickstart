@@ -11,21 +11,21 @@ ErrorDocument 403 http://localhost/404.html
 ErrorDocument 404 http://localhost/404.html
 
 # deal with admin first
-RewriteCond %{REQUEST_URI} ^/Yii2-Advanced-Start-Package/(admin)
+RewriteCond %{REQUEST_URI} ^/yii2-advanced-quickstart/(admin)
 RewriteRule ^admin/assets/(.*)$ backend/web/assets/$1 [L]
 RewriteRule ^admin/css/(.*)$ backend/web/css/$1 [L]
 
-RewriteCond %{REQUEST_URI} !^/Yii2-Advanced-Start-Package/backend/web/(assets|css)/
-RewriteCond %{REQUEST_URI} ^/Yii2-Advanced-Start-Package/(admin)
+RewriteCond %{REQUEST_URI} !^/yii2-advanced-quickstart/backend/web/(assets|css)/
+RewriteCond %{REQUEST_URI} ^/yii2-advanced-quickstart/(admin)
 RewriteRule ^.*$ backend/web/index.php [L]
 
-RewriteCond %{REQUEST_URI} ^/Yii2-Advanced-Start-Package/(assets|css)
+RewriteCond %{REQUEST_URI} ^/yii2-advanced-quickstart/(assets|css)
 RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
 RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
 RewriteRule ^js/(.*)$ frontend/web/js/$1 [L] 
 RewriteRule ^images/(.*)$ frontend/web/images/$1 [L]
 
-RewriteCond %{REQUEST_URI} !^/Yii2-Advanced-Start-Package/(frontend|backend)/web/(assets|css)/
+RewriteCond %{REQUEST_URI} !^/yii2-advanced-quickstart/(frontend|backend)/web/(assets|css)/
 RewriteCond %{REQUEST_URI} !index.php
 RewriteCond %{REQUEST_FILENAME} !-f [OR]
 RewriteCond %{REQUEST_FILENAME} !-d
