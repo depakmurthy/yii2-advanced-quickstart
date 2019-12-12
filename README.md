@@ -8,6 +8,10 @@
 
 An quick start package with all the pretty SEO-friendly URL enabled for both frontend and backend. The application is built using advanced pattern and has a modular structure.
 
+[![Latest Stable Version](https://poser.pugx.org/dominus77/yii2-advanced-start/v/stable)](https://packagist.org/packages/dominus77/yii2-advanced-start)
+[![Build Status](https://travis-ci.org/Dominus77/yii2-advanced-start.svg?branch=master)](https://travis-ci.org/Dominus77/yii2-advanced-start)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/Dominus77/yii2-advanced-start/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 REQUIREMENTS
 -------------------
 
