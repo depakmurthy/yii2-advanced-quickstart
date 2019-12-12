@@ -29,13 +29,23 @@ DATABASE
 import the `yii2_advanced_quick_start.sql` file from this repository to your `mysql server`.
 Database with name `yii2_advanced_quick_start` is created.
 
+Config file - `common\config\main-local.php` update the `components` array
+
+```
+'db' => [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=yii2_advanced_quick_start',
+    'username' => 'root',
+    'password' => 'toor',
+    'charset' => 'utf8',
+],
+```
+
 SEO-FRIENDLY URL
 -------------------
 
-Frontend
+Frontend - Update rules, if any new URLs in `frontend\config\main.php`
 ```
-Update rules, if any new URLs `frontend\config\main.php`
-
 'rules' => [
     "" => "site/index",
     "about" => "site/about",
@@ -46,11 +56,9 @@ Update rules, if any new URLs `frontend\config\main.php`
     "resend-verification-email" => "site/resend-verification-email"
 ],
 ```
-Backend
+Backend - Update rules, if any new URLs in `backend\config\main.php`
 
 ```
-Update rules, if any new URLs `backend\config\main.php`
-
 'rules' => [
     "" => "site/login"
 ],
