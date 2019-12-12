@@ -6,14 +6,19 @@
     <br>
 </p>
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+An quick start pacakge with all the pretty SEO-friendly URL enabled for both the frontend and backend. The application is built using advanced pattern and has a modular structure.
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+REQUIREMENTS
+-------------------
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+The minimum requirement by this project template that your Web server supports PHP 5.5.0.
+
+INSTALLTAION
+-------------------
+
+```
+adfadf
+```
 
 DIRECTORY STRUCTURE
 -------------------
