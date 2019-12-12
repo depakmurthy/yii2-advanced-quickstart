@@ -26,10 +26,8 @@ composer install
 DATABASE
 -------------------
 
-```
-import the yii2_advanced_quick_start.sql file from this repository to your mysql.
-Database with name yii2_advanced_quick_start is created.
-```
+import the `yii2_advanced_quick_start.sql` file from this repository to your `mysql server`.
+Database with name `yii2_advanced_quick_start` is created.
 
 SEO-FRIENDLY URL
 -------------------
