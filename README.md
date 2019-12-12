@@ -65,7 +65,7 @@ Backend - Update rules, if any new URLs in `backend\config\main.php`
 ```
 Now frontend is available at `http://localhost/yii2-advanced-quickstart` and admin (backend) at `http://localhost/yii2-advanced-quickstart/admin`
 
-Remove project name `^/yii2-advanced-quickstart/` from .htaccess in root folder to `^/` if not working in localhost
+Remove project name `^/yii2-advanced-quickstart/` from .htaccess in root folder to `^/` if you are not using or working in localhost
 
 DIRECTORY STRUCTURE
 -------------------
